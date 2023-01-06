@@ -19,7 +19,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:8000/api/users";
+      const url = "https://mern-login-register-backend.vercel.app/api/users";
       const { data: res } = await axios.post(url, data);
       console.log(res);
       navigate("/login");
