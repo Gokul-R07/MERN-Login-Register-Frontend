@@ -1,0 +1,24 @@
+.nav ul{
+  display: flex; 
+  flex-direction: row; 
+} 
+.nav ul li{
+    margin: 5px; 
+    list-style: none; 
+    cursor: pointer;
+    padding: 10px 30px;
+   background-color:#C85C8E; 
+   border-radius: 10%; 
+   color:white;
+
+} 
+.nav {
+    background-color:#7B2869; 
+    height: 80px;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    
+}
+
+

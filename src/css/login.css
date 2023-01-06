@@ -1,0 +1,64 @@
+body {
+    background-color: #c85c8e;
+  }
+  .login .left label {
+    width: 150px;
+    display: inline-block;
+    padding: 10px;
+  }
+  .login .left {
+    background-color: #ffbaba;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 60px;
+    border-radius: 25% 0% 0% 0% ;
+  }
+  .login .right {
+    background-color: #9d3c72;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 70px;
+    flex-direction: column;
+    border-radius: 0%  0% 25% 0%;
+  
+  }
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  } 
+  .login .left input,.login .register-btn,.login  .home-btn{
+    padding: 7px 30px; 
+    border-radius: 10px; 
+    border: none;
+  }
+  .login .register-btn{
+    text-align: center;
+    background-color: #ffbaba;
+  }
+  .login  #login-btn{
+    cursor: pointer;
+    margin-left: 140px;
+    background-color: #9d3c72;
+    color:white;
+  }
+  .login .register-btn{
+    cursor: pointer;
+  }
+  .login .error-message{
+    background-color: red;
+    padding: 6px 43px;
+    margin-left: 170px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    border-radius: 10px;
+    color: white;
+  }
+  .login  .home-btn{
+    background-color: #ffbaba;
+  }
